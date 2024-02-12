@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="279dp"
+        android:layout_height="222dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="140dp"
+        app:srcCompat="@drawable/calculator"
+        tools:srcCompat="@drawable/calculator" />
+
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/enter_first_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/enter_second_number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="#4C4E4F"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/plus"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="#4C4E4F"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/minus"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="#4C4E4F"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/multiply"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btDevide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="#4C4E4F"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/devide"
+        android:textSize="20sp" />
+</LinearLayout>
